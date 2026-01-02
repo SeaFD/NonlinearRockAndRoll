@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Davidson"
+    given-names: "Joshua"
+    orcid: "https://orcid.org/0000-0001-5966-4272"
+title: "NonlinearRockAndRoll: Parametric Resonance Modeling and Detection"
+version: 1.0.0
+date-released: 2024-01-01
+url: "https://github.com/SeaFD/NonlinearRockAndRoll"
+repository-code: "https://github.com/SeaFD/NonlinearRockAndRoll"
+keywords:
+  - wave-energy
+  - parametric-resonance
+  - hydrodynamics
+  - matlab
+  - signal-processing
+  - structural-monitoring
+license: MIT

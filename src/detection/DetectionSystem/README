@@ -1,0 +1,13 @@
+---Details---
+The code in this repository is used to assess a real-time detection system for the occurrence of parametric resonance in a wave energy converter as detailed in the following publication:
+
+	Davidson and Kalmar-Nagy, A real-time detection system for the onset of parametric resonance in wave 		energy converters, Journal of Marine Science and Engineering, 2020
+
+There are two separate .m files, one to assess regular wave inputs and the other to assess irregular wave inputs.
+
+---Requirements---
+To run the code requiures Matlab and Simulink
+
+---Funding---
+This project has received funding from the European Union’s Horizon 2020 research and innovation
+programme under the Marie Sklodowska-Curie grant agreement number 867453
