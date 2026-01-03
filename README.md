@@ -11,16 +11,16 @@
 
 - **Hydrodynamic Model**: Nonlinear hydrodynamic modeling framework with validated coefficients for wave energy converter dynamics
 - **Detection System**: Real-time parametric instability detection using advanced signal processing techniques  
-- **Validated Coefficients**: Pre-computed hydrodynamic parameters from experimental and CFD validation studies
+- **Validated Coefficients**: Pre-computed hydrodynamic parameters from experimental validation studies
 
-## Contents
 
-- `HydrodynamicModel.zip`: Complete MATLAB implementation of nonlinear hydrodynamic model with validated coefficients
-- `DetectionSystem.zip`: Real-time parametric resonance detection algorithm with example datasets
+## Associated Publication
 
-## Associated Publications
+This model and analysis toolkit is described in detail in the following publication:
 
-This code supports peer-reviewed research on parametric resonance in wave energy converters. If you use this software in your research, please cite the relevant publications available in the repository documentation.
+**Davidson, J., & Kalmar-Nagy, T.** (2020). A real-time detection system for the onset of parametric resonance in wave energy converters. *Journal of Marine Science and Engineering*, 8(10), 819. [https://doi.org/10.3390/jmse8100819](https://doi.org/10.3390/jmse8100819)
+
+**If you use this model and analysis toolkit in your research, please cite the above publication.**
 
 ## Requirements
 
@@ -28,72 +28,13 @@ This code supports peer-reviewed research on parametric resonance in wave energy
 - Signal Processing Toolbox
 - Statistics and Machine Learning Toolbox (for detection system)
 
-## Quick Start
-
-### 1. Clone and Extract
-
-```bash
-git clone https://github.com/SeaFD/NonlinearRockAndRoll.git
-cd NonlinearRockAndRoll
-```
-
-### 2. Extract ZIP Files
-
-```bash
-unzip HydrodynamicModel.zip
-unzip DetectionSystem.zip
-```
-
-### 3. Add to MATLAB Path
-
-```matlab
-addpath(genpath('HydrodynamicModel'))
-addpath(genpath('DetectionSystem'))
-```
-
-### 4. Run Example
-
-```matlab
-% Load validated hydrodynamic coefficients
-load('hydrodynamic_coeffs.mat')
-
-% Set up simulation parameters
-params.wave_height = 2.0;  % meters
-params.wave_period = 8.0;  % seconds
-params.duration = 300;     % seconds
-
-% Run simulation
-results = run_hydrodynamic_model(params);
-
-% Visualize results
-plot_response(results);
-```
-
-## Documentation
-
-Detailed documentation is provided within each MATLAB function. Use MATLAB's `help` command:
-
-```matlab
-help run_hydrodynamic_model
-help ParametricDetector
-```
-
 ## Applications
 
 This toolkit has been used for:
 
 - Wave energy converter performance optimization
-- Structural health monitoring of floating platforms
 - Real-time control system development
 - Parametric instability prediction in irregular seas
-
-## Validation
-
-The hydrodynamic model and detection system have been validated against:
-
-- Experimental wave tank data from IST Lisbon facilities
-- High-fidelity CFD simulations using OpenFOAM
-- Full-scale measurements from operational wave energy devices
 
 ## License
 
@@ -101,7 +42,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Authors
 
-**Joshua Davidson**
+**Josh Davidson**
 - ORCID: [0000-0001-5966-4272](https://orcid.org/0000-0001-5966-4272)
 - GitHub: [@SeaFD](https://github.com/SeaFD)
 
